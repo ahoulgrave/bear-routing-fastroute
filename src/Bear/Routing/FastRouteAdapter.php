@@ -5,14 +5,13 @@ use FastRoute;
 
 /**
  * Class FastRouteAdapter
- * todo: decouple this into a separate composer package
  *
  * @package Bear\Routing
  */
 class FastRouteAdapter extends AbstractRoutingAdapter
 {
     /**
-     * @var array
+     * @var array|string[]
      */
     private $routes;
 

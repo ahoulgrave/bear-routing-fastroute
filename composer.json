@@ -1,5 +1,5 @@
 {
-    "name": "ahoulgrave/untitled-routing-fastroute",
+    "name": "ahoulgrave/bear-routing-fastroute",
     "description": "FastRoute Adapter",
     "authors": [
         {
@@ -7,5 +7,11 @@
             "email": "a.houlgrave@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "nikic/fast-route": "^1.2",
+        "ahoulgrave/bear": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {"": "src/"}
+    }
 }
