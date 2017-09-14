@@ -1,0 +1,11 @@
+{
+    "name": "ahoulgrave/untitled-routing-fastroute",
+    "description": "FastRoute Adapter",
+    "authors": [
+        {
+            "name": "Agustin Houlgrave",
+            "email": "a.houlgrave@gmail.com"
+        }
+    ],
+    "require": {}
+}
