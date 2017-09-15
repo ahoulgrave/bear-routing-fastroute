@@ -2,6 +2,7 @@
 namespace Bear\Routing;
 
 use FastRoute;
+use Psr\Container\ContainerInterface;
 
 /**
  * Class FastRouteAdapter
@@ -65,5 +66,15 @@ class FastRouteAdapter extends AbstractRoutingAdapter
         }
 
         return $routingResolution;
+    }
+
+    /**
+     * @param ContainerInterface $container
+     *
+     * @return void
+     */
+    public function registerService(ContainerInterface $container): void
+    {
+        return;
     }
 }
